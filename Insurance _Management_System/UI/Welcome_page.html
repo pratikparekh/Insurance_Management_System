@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            height: 100%;
+            background: url("Image.jpg") no-repeat center;
+            background-size: cover;
+        }
+        .container {
+            position: absolute;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .container .btn {
+            position: absolute;
+            top: 450px;
+            left: 500px;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #555;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .container .btn1 {
+            position: absolute;
+            top: 450px;
+            left: 650px;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #555;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .container .btn2 {
+            position: absolute;
+            top: 450px;
+            left: 800px;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #555;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .container .btn1:hover {
+            background-color: black;
+        }
+        .container .btn2:hover {
+            background-color: black;
+        }
+
+        .container .btn:hover {
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+<div class="bg">
+<div class="container">
+
+    <button class="btn" onclick="window.location = 'http://localhost:63342/Insurance_Company/Registration.html';">Sign up</button>
+    <button class="btn1" onclick="window.location = 'http://localhost:63342/Insurance_Company/Login.html'">Sign in</button>
+    <button class="btn2" onclick="window.location = 'http://localhost:63342/Insurance_Company/DisplayPolicies.html'">Continue as Guest</button>
+</div>
+</div>
+</body>
+</html>

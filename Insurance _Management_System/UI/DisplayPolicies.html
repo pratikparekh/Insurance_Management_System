@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Policies</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">
+    <h2>View Details</h2>
+</div>
+
+<form method="post" action="UserViewPolicy.php">
+
+    <div class="input-group">
+        <button type="submit" class="btn" name="View_policies">View all Policies</button>
+    </div>
+    <div class="input-group">
+    <button type="submit" class="btn" name="View_agents">View all Agents under each Manager</button>
+    </div>
+    <div class="input-group">
+        <button type="submit" class="btn" name="View_customers_under_agents">View Customers registered under each Agent</button>
+    </div>
+    <div class="input-group">
+        <button type="submit" class="btn" name="View_Claims">View Claims </button>
+    </div>
+    <div class="input-group">
+        <button type="submit" class="btn" name="View_Transactions">View Transactions</button>
+    </div>
+    <div class="input-group">
+        <label>Enter Customer name</label>
+        <input type="text" name="Customer_username" >
+        <div class="input-group">
+            <button type="submit" class="btn" name="View_Claims_customer">Claimed filed by Customer</button>
+        </div>
+    </div>
+    <div class="input-group">
+        <label>Enter Claim id</label>
+        <input type="text" name="claim_id" >
+    </div>
+    <div class="input-group">
+        <label>Enter Manager id</label>
+        <input type="text" name="mid" >
+    </div>
+    <div class="input-group">
+        <label>Change status to</label>
+        <input type="text" name="change_status">
+    </div>
+    <div class="input-group">
+        <button type="submit" class="btn" name="Claim_status">Update Claim status</button>
+    </div>
+
+    <div class="input-group">
+        <label>Enter Customer name</label>
+        <input type="text" name="Customer_name" >
+        <div class="input-group">
+            <button type="submit" class="btn" name="View_Customer_Policies">View Customer Policies</button>
+        </div>
+    </div>
+    <div class="input-group">
+        <label>Enter Agents name</label>
+        <input type="text" name="Agent_name" >
+        <div class="input-group">
+            <button type="submit" class="btn" name="GetAgentCommission">Get My Commission Details</button>
+        </div>
+    </div>
+    </div>
+    <div class="input-group">
+        <label>Enter Customer name</label>
+        <input type="text" name="Customer_name" >
+        <div class="input-group">
+            <button type="submit" class="btn" name="GetMyTransactions">My Transaction History</button>
+        </div>
+    </div>
+    <div class="input-group">
+        <label>Enter Customer name</label>
+        <input type="text" name="Customer_name" >
+    <div class="input-group">
+        <button type="submit" class="btn" name="GetMybill">View my Bill</button>
+    </div>
+</form>
+</body>
+</html>
